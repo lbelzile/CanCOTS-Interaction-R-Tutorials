@@ -1,3 +1,32 @@
+```{=latex}
+\begin{center}
+\small
+Léo Belzile\textsuperscript{1} \orcidlink{0000-0002-9135-014X},
+David A. Campbell\textsuperscript{2} \orcidlink{0000-0001-8722-4450},
+Kyran Cupido\textsuperscript{3} \orcidlink{0000-0001-6984-4082},
+Nishan Mudalige\textsuperscript{4} \orcidlink{0000-0003-3981-9868},
+Aurélien Nicosia\textsuperscript{5},
+Emily Somerset\textsuperscript{4},
+Haochen Song\textsuperscript{4} \orcidlink{0009-0006-7825-4993},
+David Riegert\textsuperscript{6},
+Russell Steele\textsuperscript{7} \orcidlink{0000-0003-1071-0914},
+Irene Vrbik\textsuperscript{8},
+Karen Huynh Wong\textsuperscript{4}
+
+\vspace{0.75em}
+
+\footnotesize
+\textsuperscript{1} HEC Montréal, \href{mailto:leo.belzile@hec.ca}{leo.belzile@hec.ca}\\
+\textsuperscript{2} Carleton University, \href{mailto:davecampbell@math.carleton.ca}{davecampbell@math.carleton.ca}\\
+\textsuperscript{3} St. Francis Xavier University, \href{mailto:kcupido@stfx.ca}{kcupido@stfx.ca}\\
+\textsuperscript{4} University of Toronto, \href{mailto:nishan.mudalige@utoronto.ca}{nishan.mudalige@utoronto.ca}; \href{mailto:emily.somerset@mail.utoronto.ca}{emily.somerset@mail.utoronto.ca}; \href{mailto:fred.song@mail.utoronto.ca}{fred.song@mail.utoronto.ca}; \href{mailto:karen.huynhwong@utoronto.ca}{karen.huynhwong@utoronto.ca}\\
+\textsuperscript{5} Université Laval, \href{mailto:aurelien.nicosia@mat.ulaval.ca}{aurelien.nicosia@mat.ulaval.ca}\\
+\textsuperscript{6} Trent University, \href{mailto:davidriegert@trentu.ca}{davidriegert@trentu.ca}\\
+\textsuperscript{7} McGill University, \href{mailto:russell.steele@mcgill.ca}{russell.steele@mcgill.ca}\\
+\textsuperscript{8} University of British Columbia, \href{mailto:irene.vrbik@ubc.ca}{irene.vrbik@ubc.ca}
+\end{center}
+```
+
 ## Introduction
 
 Data science  majors popularity is at an all time high [@Pierson:2023], leading to strain on teaching resources. The increased enrollment, even in upper level undergraduate courses, increases the time spent on class management by instructors and limits their ability and that of teaching assistants to provide timely feedback on evaluations. The advent of generative artificial intelligence (genAI) also raises concerns about plagiarism. Due to these, instructors more and more default back to invigilated multiple choice exams. This is unfortunate because the questions that can be asked in such evaluations are not necessarily authentic.

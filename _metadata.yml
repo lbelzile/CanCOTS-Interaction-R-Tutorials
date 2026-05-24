@@ -1,14 +1,15 @@
 title: "Interactive R tutorials for learning and assessments"
 
-format: html
-# format:
-#   pdf:
-#     documentclass: scrartcl
-#     papersize: letter
-#     pdf-engine: xelatex
-#     include-in-header:
-#       text: |
-#         \usepackage{hyperref}
+format:
+  html: default
+  pdf:
+    documentclass: scrartcl
+    papersize: letter
+    pdf-engine: xelatex
+    include-in-header:
+      text: |
+        \usepackage{orcidlink}
+        \usepackage{hyperref}
 
 bibliography: "InteractiveRTutorials.bib"
 
@@ -18,74 +19,51 @@ author:
     email: leo.belzile@hec.ca
     affiliations:
       - name:  Department of Decision Sciences, HEC Montreal
-      
   - name: David A. Campbell
     orcid: 0000-0001-8722-4450
     email: davecampbell@math.carleton.ca
     affiliations:
       - name: School of Mathematics and Statistics, Carleton University
-    
   - name: Kyran Cupido
     orcid: 0000-0001-6984-4082
     email: kcupido@stfx.ca
     affiliations:
       - name: Department of of Mathematics & Statistics, St. Francis Xavier University
-    
   - name: Nishan Mudalige
     orcid: 0000-0003-3981-9868
     email: nishan.mudalige@utoronto.ca
     affiliations:
       - name: Department of Mathematical & Computational Sciences, University of Toronto Mississauga
-      
   - name: Aurélien Nicosia
     email: aurelien.nicosia@mat.ulaval.ca
     affiliations:
       - name: Department of Mathematics and Scatistics, Université Laval
-    
   - name: Emily Somerset
     email: emily.somerset@mail.utoronto.ca
     affiliations:
       - name: Department of Statistics, University of Toronto
-    
   - name: Haochen Song
     orcid: 0009-0006-7825-4993
     email: fred.song@mail.utoronto.ca
     affiliations:
       - name: Department of Statistics, University of Toronto
-      
   - name: David Riegert
     email: davidriegert@trentu.ca
     affiliations:
       - name: Department of Mathematics and Statistics, Trent University
-    
   - name: Russell Steele
     orcid: 0000-0003-1071-0914
     email: russell.steele@mcgill.ca
     affiliations:
       - name: Department of Mathematics and Statistics, McGill University
-    
   - name: Irene Vrbik
     email: irene.vrbik@ubc.ca
     affiliations:
-      - name: Department of Computer Science, Mathematics, Physics and Statistics, University of British Columbia Okanagan
-    
+      - name: Department of Statistics, University of British Columbia Okanagan
   - name: Karen Huynh Wong
     email: karen.huynhwong@utoronto.ca
     affiliations:
       - name: Department of Statistics, University of Toronto
-
-# author:
-#   - "Léo Belzile\\thanks{HEC Montréal. Email: \\href{mailto:leo.belzile@hec.ca}{leo.belzile@hec.ca}. ORCID: \\href{https://orcid.org/0000-0002-9135-014X}{0000-0002-9135-014X}.}"
-#   - "David A. Campbell\\thanks{Carleton University. Email: \\href{mailto:davecampbell@math.carleton.ca}{davecampbell@math.carleton.ca}. ORCID: \\href{https://orcid.org/0000-0001-8722-4450}{0000-0001-8722-4450}.}"
-#   - "Kyran Cupido\\thanks{St. Francis Xavier University. Email: \\href{mailto:kcupido@stfx.ca}{kcupido@stfx.ca}. ORCID: \\href{https://orcid.org/0000-0001-6984-4082}{0000-0001-6984-4082}.}"
-#   - "Nishan Mudalige\\thanks{University of Toronto. Email: \\href{mailto:nishan.mudalige@utoronto.ca}{nishan.mudalige@utoronto.ca}. ORCID: \\href{https://orcid.org/0000-0003-3981-9868}{0000-0003-3981-9868}.}"
-#   - "Aurélien Nicosia\\thanks{Université Laval. Email: \\href{mailto:aurelien.nicosia@mat.ulaval.ca}{aurelien.nicosia@mat.ulaval.ca}.}"
-#   - "Emily Somerset\\thanks{University of Toronto. Email: \\href{mailto:emily.somerset@mail.utoronto.ca}{emily.somerset@mail.utoronto.ca}.}"
-#   - "Haochen Song\\thanks{University of Toronto. Email: \\href{mailto:fred.song@mail.utoronto.ca}{fred.song@mail.utoronto.ca}. ORCID: \\href{https://orcid.org/0009-0006-7825-4993}{0009-0006-7825-4993}.}"
-#   - "David Riegert\\thanks{Trent University. Email: \\href{mailto:davidriegert@trentu.ca}{davidriegert@trentu.ca}.}"
-#   - "Russell Steele\\thanks{McGill University. Email: \\href{mailto:russell.steele@mcgill.ca}{russell.steele@mcgill.ca}. ORCID: \\href{https://orcid.org/0000-0003-1071-0914}{0000-0003-1071-0914}.}"
-#   - "Irene Vrbik\\thanks{University of British Columbia. Email: \\href{mailto:irene.vrbik@ubc.ca}{irene.vrbik@ubc.ca}.}"
-#   - "Karen Huynh Wong\\thanks{University of Toronto. Email: \\href{mailto:karen.huynhwong@utoronto.ca}{karen.huynhwong@utoronto.ca}.}"
 
 abstract: >
   We review software tools for teaching, assessing and grading data analysis skills in the classroom using the **R** programming language.
