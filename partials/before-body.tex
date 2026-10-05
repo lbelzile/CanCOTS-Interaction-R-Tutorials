@@ -1,0 +1,40 @@
+% Custom before-body partial (title page) for the jasa-pdf format.
+% Identical to the jasa extension's before-body.tex, except that the unblinded
+% author list is read from authors.tex (compact list with numbered
+% affiliations), because the default one-author-per-block layout does not
+% fit eleven authors on the title page.
+\def\spacingset#1{\renewcommand{\baselinestretch}%
+{#1}\small\normalsize} \spacingset{1}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+$if(date)$
+\date{$date$}
+$endif$
+\spacingset{.8}
+\bigskip
+\begin{center}
+  {\LARGE\bf $title$}
+\end{center}
+\smallskip
+\bigskip
+\spacingset{1}
+$if(journal.blinded)$
+$else$
+\input{authors.tex}
+$endif$
+
+\bigskip
+\begin{abstract}
+$abstract$
+\end{abstract}
+
+$if(keywords)$
+\noindent%
+{\it Keywords:} $for(keywords)$$it$$sep$, $endfor$
+\vfill
+$endif$
+
+\newpage
+\spacingset{1.9} % DON'T change the spacing!
